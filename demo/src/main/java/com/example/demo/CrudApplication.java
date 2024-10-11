@@ -10,7 +10,7 @@ public class CrudApplication {
 		SpringApplication.run(CrudApplication.class, args);
 		System.out.println("Palestine" +
 				"" +
-				"");
+				"ccccccc");
 	}
 
 }
