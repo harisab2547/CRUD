@@ -36,6 +36,23 @@ public class Employee {
     }
 
     private String name;
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Employee(String name, Long id, String phone, String email) {
+        this.name = name;
+        this.id = id;
+        this.phone = phone;
+        this.email = email;
+    }
+
     private String phone;
     private String email;
 
